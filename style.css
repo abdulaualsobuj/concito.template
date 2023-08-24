@@ -2,13 +2,13 @@
   scroll-behavior: smooth;
 } */
 
-header{
+/* header{
     background-image: url(https://concitopr.com.bd/wp-content/uploads/2022/10/ls-project-1-slide-1.jpg);
-    background-position: center top;
+    position: center top;
     background-size:100%;
     background-repeat: no-repeat;
     height: 750px;
-}
+} */
 .navbar-toggler {
     border: 0 !important;
 }
@@ -35,8 +35,9 @@ header{
 .top-bar,
 .middle-bar,
 .bottom-bar{
-    background-color: #00A857;
+    background-color: #D1B12A;
 }
+
 .offcanvas{
     max-width: 80%;
 }
@@ -52,6 +53,7 @@ header{
 }
 
 @media screen and (min-width:992px) {
+  
     .nav-link{
         
     }
@@ -60,9 +62,20 @@ header{
     }
     
 }
-@media screen and (max-width:991px) {
+@media screen and (max-width:991x) {
+  /* header {
+    background-image: url(https://concitopr.com.bd/wp-content/uploads/2022/10/ls-project-1-slide-1.jpg);
+    background-position: center top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+} */
+
+    .fixed-bar{
+      opacity: 0.97;
+    }
     header{
-        margin-top: 75px;
+        margin-top: 30px;
     }
     .nav-link{
         color:#afafaf !important;
@@ -169,9 +182,32 @@ header{
 
 
 @media screen and (max-width:767px) {
+  .head-content{
+    margin-top: 70px;
+    opacity: 2;
+  }
+  .offcanvas{
+    color: white !important;
+  }
   
 }
 @media screen and (max-width:480px) {
+  .card-text{
+    margin-top: 10px;
+  }
+.card-img,
+.card-text{
+  width: 100%;
+}
+.card{
+  padding: 10px;
+  border: none;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+
   .tab{
     width: 100%;
     align-items: center;
@@ -250,6 +286,7 @@ header{
 }
 
 .Contuctus{
+  font-family: lato;
   background-color: #D1E5E7;
 }
 
